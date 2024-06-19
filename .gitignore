@@ -20,3 +20,28 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+# local env files
+.env.local
+.env.*.local
+
+# .kube/config
+.kube/
+
+# Log files
+*.log*
+
+# Editor directories and files
+.DS_Store
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iml
+*.exe
+
+# data volume
+volumes/
